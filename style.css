@@ -1,0 +1,170 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(235, 214, 202);
+}
+
+body a{
+    text-decoration: none;
+    
+}
+
+/*-------Side Menu---------*/
+
+.sidenav {
+    height: 100%;
+    width: 18em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(235, 202, 172);
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #494949;
+    display: block;
+}
+
+.sidenav b {
+    padding: 20px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #686868;
+    display: block;
+}
+
+.sidenav b1 {
+    padding:  8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e25e21;
+    display: block;
+}
+
+
+
+.sidenav a:hover {
+    color: #f06412;
+}
+
+/*-------Content Menu---------*/
+
+
+.vl {
+    border-left: 2px solid rgb(190, 182, 182);
+    height: 200px;
+    position: absolute;
+    
+  }
+
+  .vl1{
+    margin-top: 2%;
+    border-left: 6px solid rgb(180, 173, 173);
+    height: 30px;
+    position: absolute;
+  }
+
+.sidenav-r {
+    margin-left: 85%;
+    width: 15em;
+    z-index: 1;
+    position:fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100px;
+    
+}
+
+.sidenav-r b{
+    padding: 20px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #686868;
+    display: block;
+}
+
+.sidenav-r a{
+    color: #686868;
+    padding: 20px 8px 6px 16px;
+}
+
+.sidenav-r a:hover{
+    color: #f06412;
+}
+
+
+/*--------Content------*/
+
+.main {
+    margin-left: 12em;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    margin-right: 12em;
+    
+    
+}
+
+.main b{
+    padding-top: 2%;
+    text-decoration: none;
+    font-size: 40px;
+    color: #414141;
+    display: block;
+}
+
+.main b1{
+    
+    margin-top: 5%;
+    text-decoration:none; 
+    font-size: 35px;
+    color: #414141;
+    display: block;
+}
+
+.main p{
+    
+    text-decoration: none;
+    font-size: 16px;
+    color: #8f8f8f;
+    display: block;
+}
+
+.main p1{
+    margin-top: 1%;
+    text-decoration: none;
+    font-size: 16px;
+    color: #464646;
+    display: block;
+}
+
+.main p2{
+    margin-left: 2%;
+    margin-top: 4%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #8f8f8f;
+    display: block;
+}
+
+.main hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a .sidenav b {
+        font-size: 18px;
+    }
+}
